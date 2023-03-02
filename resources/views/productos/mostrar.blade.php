@@ -10,5 +10,8 @@
 <h1>
 Vista del producto
 </h1>
+
+<a href="{{route('crear')}}">Agregar Producto</a>
+
 </body>
 </html>

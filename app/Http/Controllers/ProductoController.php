@@ -14,7 +14,7 @@ class ProductoController extends Controller
      */
     public function index()
     {
-        //
+        return view('productos.mostrar');
     }
 
     /**
@@ -24,9 +24,13 @@ class ProductoController extends Controller
      */
     public function create()
     {
-        //
+        return view('productos.nuevo');
     }
-
+    
+    public function editar()
+    {
+        return view('productos.editar');
+    }
     /**
      * Store a newly created resource in storage.
      *
